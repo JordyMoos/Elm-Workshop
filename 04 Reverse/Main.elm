@@ -28,7 +28,7 @@ update msg model =
 view model =
     div []
         [ input [ placeholder "Text to reverse", onInput NewContent, myStyle ] []
-        , div [ myStyle ] [ ] -- The model should be reversed and displayed here
+        , div [ myStyle ] [] -- The model should be reversed and displayed here
         ]
 
 
